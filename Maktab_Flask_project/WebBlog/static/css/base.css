@@ -30,7 +30,7 @@
     max-height:55px;
 }
 .main-container{
-    height:1000px;
+    height:auto;
     background-color: rgba(96, 161, 224, 0.18);
 }
 
