@@ -8,4 +8,8 @@ def create_app():
         SECRET_KEY='.jHETCR4ER*@V{/'
 
     )
+    
+    from .blog import blog_bp
+    app.register_blueprint(blog_bp)
+
     return app
